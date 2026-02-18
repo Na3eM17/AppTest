@@ -7,7 +7,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AdminUserController;
 use App\Http\Controllers\AdminProductController;
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
 
